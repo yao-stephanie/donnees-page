@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    text-rendering:optimizeLegibility;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    background: url(images/desert.jpeg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #cb997ea1;
+    color: #370617;
+}
+
+.logo span{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight:bold;
+    margin-right: 10px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li{
+    list-style: none;
+   margin: 0 70px;
+   font-size: 20px;
+}
+
+.menu li a{
+    color: #370617;
+}
+
+.search a{
+    margin: 0 10px;
+}
+
+.text{
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+
+.text span{
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color:#370617 ;
+}
+
+.text h1{
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 200px;
+    letter-spacing: 40px;
+    color: #370617;
+}
+
+.btn{
+    padding: 15px 40px;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+.btn-connexion{
+    color: #370617;
+    font-size: 25px;
+    transition:text-decoration 0,5s;
+    -webkit-transition:text-decoration 0,5s;
+    -moz-transition:text-decoration 0,5s;
+    -ms-transition:text-decoration 0,5s;
+    -o-transition:text-decoration 0,5s;
+}
+
+.btn-connexion:hover{
+    text-decoration: underline;
+}
+
+.btn-text{
+    color: #fff;
+    background-color: #d2a27e;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.btn-text:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.social{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 10%;
+}
+
+.social a{
+    margin: 10px 0;
+}
+
+/* page de connexion */
+
+.bloc-connect{
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    color: #370617;
+    border-radius: 10px;
+
+}
+
+#formulaire,
+form{
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.register{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.salut{
+    padding: 20px;
+}
+
+.title-connect{
+    font-size: 30px;
+}
+
+.register input[type=text],
+.register input[type=password]{
+    padding: 10px 0;
+    padding-left: 10px;
+    margin: 10px 0;
+    border: 0;
+    outline: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color:#f4d4b9b0 ;
+}
+
+.register label{
+    font-weight: bold;
+}
+
+#btn-connect,
+button{
+    width: 100%;
+    padding: 10px 0;
+    border: 0;
+    outline: none;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color:#d2a27e ;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* page d'inscrption */
+
+.profil{
+    text-align: center;
+    padding: 30px 20px 0;
+}
+.profil p{
+    color: #370617;
+}
+
+.box-person{
+    display: flex;
+    width: 100%;
+}
+
+.register-nom{
+    margin-right: 5px;
+}
+
+.box-person input[type=text]{
+}
